@@ -18,6 +18,9 @@ segundos = Math.floor(segundos)
 minutos = Math.floor(minutos)
 horas = Math.floor(horas)
 dias = Math.floor(dias)
+segundos = segundos%60
+minutos = minutos%60
+horas = horas%60
 tempo[0].textContent = `Faltam ${dias} dias, ${horas} horas, ${minutos} minutos e ${segundos} segundos`
 
 let segundos2;
@@ -32,6 +35,9 @@ segundos2 = Math.floor(segundos2)
 minutos2 = Math.floor(minutos2)
 horas2 = Math.floor(horas2)
 dias2 = Math.floor(dias2)
+segundos2 = segundos2%60
+minutos2 = minutos2%60
+horas2 = horas2%60
 tempo[1].textContent = `Faltam ${dias2} dias, ${horas2} horas, ${minutos2} minutos e ${segundos2} segundos`
 
 let segundos3;
@@ -46,6 +52,9 @@ segundos3 = Math.floor(segundos3)
 minutos3 = Math.floor(minutos3)
 horas3 = Math.floor(horas3)
 dias3 = Math.floor(dias3)
+segundos3 = segundos3%60
+minutos3 = minutos3%60
+horas3 = horas3%60
 tempo[2].textContent = `Faltam ${dias3} dias, ${horas3} horas, ${minutos3} minutos e ${segundos3} segundos`
 
 let segundos4;
@@ -60,6 +69,10 @@ segundos4 = Math.floor(segundos4)
 minutos4 = Math.floor(minutos4)
 horas4 = Math.floor(horas4)
 dias4 = Math.floor(dias4)
+segundos4 = segundos4%60
+minutos4 = segundos4%60
+horas4 = horas4%60
+
 tempo[3].textContent = `Faltam ${dias4} dias, ${horas4} horas, ${minutos4} minutos e ${segundos4} segundos`
 
 
