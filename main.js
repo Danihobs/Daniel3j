@@ -3,10 +3,10 @@ const botoes = document.querySelectorAll(".botao");
 const conteudo = document.querySelectorAll(".aba-conteudo");
 const tempo = document.querySelectorAll(".contador");
 tempo[0].textContent = "Bibs"
-const tempoObjetivo1 = new Date(2024,11,31,59,59);
-const tempoObjetivo2 = new Date(2024,11,31,59,59);
-const tempoObjetivo3 = new Date(2024,11,31,59,59);
-const tempoObjetivo4 = new Date(2024,11,31,59,59);
+const tempoObjetivo1 = new Date(2024,12,14,59,59);
+const tempoObjetivo2 = new Date(2024,10,21,59,59);
+const tempoObjetivo3 = new Date(2024,11,18,59,59);
+const tempoObjetivo4 = new Date(2024,9,31,59,59);
 
 function calculaTempo(tempoObjetivo){
 const agora = new Date();
